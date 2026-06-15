@@ -9,7 +9,7 @@ from llama_index.llms.google_genai import GoogleGenAI
 load_dotenv()
 
 #insialisasi SECRET_KEY
-key = os.getenv("SECRET_KEY")
+key = os.getenv("API_KEY")
 model_ai = os.getenv("GEMINI_MODEL", "gemini-flash-lite-latest")
 
 #CODING 
