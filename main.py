@@ -10,7 +10,7 @@ load_dotenv()
 
 #insialisasi SECRET_KEY
 key = os.getenv("API_KEY")
-model_ai = os.getenv("GEMINI_MODEL", "gemini-flash-lite-latest")
+model_ai = os.getenv("Model_AI", "gemini-flash-lite-latest")
 
 #CODING 
 Settings.llm = GoogleGenAI(model=model_ai, api_key=key) 
